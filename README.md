@@ -1,4 +1,7 @@
 # Dynamic accounts to be configured with gitops style Spinnaker
+  - This url of this repo is fed into default/profiles/spinnakerconfig.yaml file that is present in https://github.com/OpsMx/gitops-hal-sample
+  - Credentials to access this repo is fed via secret (opsmx-gitops-secret) in oes helm chart.
+  
 
 ## Add K8s accounts
 - First, this git repo uri is added to spinnakerconfig.yml using secret(opsmx-gitops-secret) in oes helm chart.
